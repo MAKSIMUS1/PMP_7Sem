@@ -1,0 +1,53 @@
+# Игнорировать скомпилированные и сборочные артефакты
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.dart_tool/
+generated_plugin_registrant.dart
+
+# Игнорировать зависимые файлы пакетов
+.pub/
+.pub-cache/
+.idea/
+.packages
+*.lock
+*.log
+
+# Игнорировать файлы IntelliJ/Android Studio
+*.iml
+.idea/
+.gradle/
+android/.gradle/
+android/app/proguard-rules.pro
+android/key.properties
+
+# Игнорировать файлы кэша Xcode (iOS/macOS)
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+ios/Runner.xcworkspace/
+ios/build/
+ios/DerivedData/
+macos/Pods/
+macos/.symlinks/
+macos/Flutter/ephemeral/
+macos/Flutter/Flutter.podspec
+
+# Игнорировать кэшированные файлы Swift/Objective-C для iOS
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+
+# Игнорировать файлы отладки
+*.lock
+*.log
+*.diff
+
+# Игнорировать файлы ОС
+.DS_Store
+Thumbs.db
+
+# Игнорировать файлы pubspec.lock для библиотек
+# Если это приложение, то закомментируй строку ниже
+# pubspec.lock
